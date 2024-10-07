@@ -1,0 +1,45 @@
+.body .container .form ul {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.body .container .form ul li {
+    line-height: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.body .container .form ul li #nama {
+    width: 200px;
+    color: black;
+    font-family: "Rubik", sans-serif;
+}
+
+.body .container .form ul li #email {
+    width: 205px;
+    color: black;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.body .container .form button {
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background-color: #08D9D6;
+    color: azure;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
+}
+
+.body .container .form button a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.body .container .form button:hover {
+    background-color: #FF2E63;
+}

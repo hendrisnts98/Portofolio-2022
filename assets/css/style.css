@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.body img {
+    align-items: start;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.body .title-name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    color: #08D9D6;
+    font-weight: 600;
+}
+ .title-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+ .title-nav ul li {
+    margin: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+ .title-nav ul li .profile {
+    color:#252A34;
+}
+
+ .title-nav ul li a {
+    text-decoration: none;
+    color: #2626279d;
+}
+.title-nav ul li a:hover{
+    background-color:#FF2E63;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+.container{
+    background-color: #F1F8FA;
+    margin: 50px 50px;
+    text-decoration: none;
+}
+.container {
+    background-color: #F1F8FA;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    /* align-items: center; */
+    text-decoration: none;
+    text-align: left;
+}
+
+.container h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #FF2E63;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 20px;
+}
+
+.container p {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 39px;
+}
+.wanted{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wanted button {
+    width: 90px;
+    padding: 20px 20px;
+    height: 90px;
+    background-color: #191a1d;
+    border: none;
+    box-shadow: 0 7px #08D9D6;
+    cursor: pointer;
+}
+
+.wanted button:hover {
+    background-color: #FF2E63;
+}
+
+.wanted button:active {
+    background-color: #1a7940;
+}
+
+.wanted button a {
+    text-decoration: none;
+    color: skyblue;
+} 
+
+@media only screen and (max-width: 600px) {
+    .heading{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+    }
+    .heading img{
+        width: 90px;
+        height: 80px;
+    }
+    .heading .title-name h3{
+        font-size: 1em;
+    }
+     .title-nav li a{
+        font-size: .9em;
+    }
+    .container h1{
+        font-size: 1.5em;
+    }
+    .container p{
+        font-size: .8em;
+        line-height: 2em;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .heading{
+        display: flex;
+        flex-direction: column;
+    }
+}

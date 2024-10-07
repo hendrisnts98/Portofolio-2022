@@ -1,0 +1,165 @@
+@media (max-width:500px) {
+    body {
+        overflow-x: hidden;
+        overflow-y:scroll
+    }
+   .body {
+    padding: 15px 1px;
+   }
+
+    .body .title-name {
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        color: #1a7940;
+        font-weight: 600;
+        float: left;
+        padding-left: 120px;
+        margin-top: -95px;
+    }
+
+    .body .title-nav {
+        padding-right: 20px;
+        margin-top: -10px;
+    }
+
+    .body .title-nav ul li {
+        margin: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #2626279d;
+    }
+
+    .body .container {
+        background-color: #F1F8FA;
+        margin: 20px 20px;
+    }
+
+    .body .container h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: #1a7940;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .body .container p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        line-height: 39px;
+    }
+
+    .body .wanted {
+        line-height: 80px;
+        width: 190px;
+    }
+
+    .body .wanted button {
+        width: 190px;
+        height: 60px;
+    }
+}
+
+@media (max-width:1280px)
+{
+    .body {
+    margin: 0;
+    padding: 65px 150px;
+}
+
+.body img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 7px 7px #1a7940;
+}
+
+.body .title-name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    color: #1a7940;
+    font-weight: 600;
+    float: right;
+    padding-right: 700px;
+    margin-top: -25px;
+}
+
+.body .title-nav {
+    float: right;
+    padding-right: 495px;
+    margin-top: -55px;
+}
+
+.body .title-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.body .title-nav ul li {
+    margin: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.body .title-nav ul li .profile {
+    color:#191a1d
+}
+
+.body .title-nav ul li a {
+    text-decoration: none;
+    color: #2626279d;
+}
+
+.body .container {
+    background-color: #F1F8FA;
+    margin: 50px 50px;
+    text-decoration: none;
+}
+
+.body .container h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #FF8400;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 20px;
+}
+
+.body .container p {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 39px;
+}
+
+
+.body .wanted button {
+    width: 90px;
+    padding: 20px 20px;
+    height: 90px;
+    margin-left: 97px;
+    background-color: #191a1d;
+    border: none;
+    box-shadow: 0 7px #1a7940;
+    cursor: pointer;
+}
+
+.body .wanted button:hover {
+    background-color: #FF8400;
+}
+
+.body .wanted button:active {
+    background-color: #1a7940;
+}
+
+.body .wanted button a {
+    text-decoration: none;
+    color: skyblue;
+}
+}

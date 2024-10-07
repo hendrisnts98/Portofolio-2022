@@ -1,0 +1,16 @@
+.container button {
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    background-color: #08D9D6;
+    color: azure;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #FF2E63;
+}
